@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <div class="controls">
+      <label>Axiom</label>
+      <input type="text" id="axiom">
+      <label>Line Length</label>
+      <input type="number" id="linelen" step=1>
+      <label>Scale Factor</label>
+      <input type="number" id="scaleFactor" step=0.01>
+      <label>Angle</label>
+      <input type="number" id="angle" step=0.1>
+      <label> Rules </label>
+      <textarea id="rules"> </textarea>
+      <div class="actions">
+        <button id="reset">Reset</button>
+        <button id="generate">Generate</button>
+      </div>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>

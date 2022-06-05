@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+canvas {
+  display: flex;
+}
+
+.controls {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  align-content: space-between;
+  flex-direction: column
+}
+
+.controls textarea {
+  height: 300px;
+}
+
+.actions {
+  display: flex;
+  align-items: flex-start;
+  align-content: space-between;
+  flex-direction: row;
+}
+
+.actions button {
+  margin: 10px;
+}
+
+.controls textarea, .controls input {
+  width: 100%;
+  margin: 10px;
+}
